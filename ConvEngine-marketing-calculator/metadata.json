@@ -1,6 +1,0 @@
-{
-  "name": "Simple Marketing Calculator",
-  "description": "A basic marketing calculator that calculates revenue from traffic, conversion rate, closing rate, and average order value.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
