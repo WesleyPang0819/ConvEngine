@@ -467,7 +467,7 @@ export default function App() {
       </div>
       
       {/* Footer */}
-      <footer className="w-full text-center z-10 mb-0 pb-2 md:pb-8">
+      <footer className="w-full text-center z-10 mb-0 md:pb-8 mobile-pwa-footer-fix">
         <div className="max-w-5xl mx-auto border-t border-blue-400/30 pt-4 md:pt-6 mt-8">
           <p className="text-blue-200/80 text-[11px] sm:text-xs font-semibold tracking-wider">
             &copy; 2026 ConvEngine. Created by Wesley Pang. All rights reserved.
