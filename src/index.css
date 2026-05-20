@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto; /* Explicitly allow vertical scrolling */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+  /* PWA/Mobile Native feel fixes */
+  background-color: #0974f1; /* Match app primary blue to hide white overscroll */
+  margin: 0;
+  min-height: 100%;
+  
+  /* Support for iPhone notch/safe areas */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: #0974f1;
+}
+
+/* Prevent iOS input zoom by ensuring font-size is at least 16px on mobile */
+@media (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
