@@ -19,9 +19,14 @@ html, body {
 }
 
 #root {
-  min-height: 100vh;
-  min-height: 100dvh;
   background-color: #0974f1;
+}
+
+@media (min-width: 768px) {
+  #root {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
 }
 
 /* Prevent iOS input zoom by ensuring font-size is at least 16px on mobile */

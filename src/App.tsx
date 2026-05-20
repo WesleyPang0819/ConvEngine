@@ -190,7 +190,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0974f1] flex flex-col items-center px-4 pt-6 pb-0 md:px-8 md:pt-8 lg:px-12 lg:pt-12 font-sans text-slate-900 relative overflow-x-hidden w-full">
+    <div className="md:min-h-screen bg-[#0974f1] flex flex-col items-center px-4 pt-6 pb-0 md:px-8 md:pt-8 lg:px-12 lg:pt-12 font-sans text-slate-900 relative overflow-x-hidden w-full">
       {/* Background Decorations Wrapper to prevent scroll stretching */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Light grid overlay */}
@@ -467,7 +467,7 @@ export default function App() {
       </div>
       
       {/* Footer */}
-      <footer className="w-full text-center z-10 mb-0 pb-6 md:pb-8">
+      <footer className="w-full text-center z-10 mb-0 pb-2 md:pb-8">
         <div className="max-w-5xl mx-auto border-t border-blue-400/30 pt-4 md:pt-6 mt-8">
           <p className="text-blue-200/80 text-[11px] sm:text-xs font-semibold tracking-wider">
             &copy; 2026 ConvEngine. Created by Wesley Pang. All rights reserved.
