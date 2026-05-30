@@ -37,7 +37,7 @@ export default function SpotlightCard({
           : 'rgba(226, 232, 240, 0.6)',
       }}
     >
-      <div className="bg-white rounded-[1.92rem] w-full h-full relative z-10 flex flex-col justify-between overflow-hidden p-6 md:p-10">
+      <div className="bg-white rounded-[1.92rem] w-full h-full relative z-10 flex flex-col justify-start overflow-hidden p-5 md:p-8">
         {/* Soft internal shine on hover */}
         <div
           className="pointer-events-none absolute inset-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
